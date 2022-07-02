@@ -198,6 +198,24 @@ section.success1 .box{
   display: flex;
   gap:50px;
 }
+
+@media all and (max-width:767px) {
+  section.success1 .box{
+    display: flex;
+    flex-direction: column;
+  }
+  section.success1 .row{
+    width: 100%;
+    margin: auto 0;
+  }
+  section.success1 .row .row_wrap{
+    width: 90vw;
+    margin: auto 0;
+  }
+  section.success1 .row .content-text{
+    width: 100%;
+  }
+}
 section.success1 .row{
   width: 50%;
 }
