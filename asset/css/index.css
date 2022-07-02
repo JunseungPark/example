@@ -190,7 +190,7 @@ section.success1 {
 padding: 2%;
 }
 section.success1 img{
-  width: 500px;
+  width: 100%;
   height: 500px;
   object-fit: cover ;
 }
